@@ -33,27 +33,27 @@ public class ExampleMod implements ModInitializer {
 			(Feature.ORE, new OreFeatureConfig(
 					OreConfiguredFeatures.STONE_ORE_REPLACEABLES,
 					ModBlocks.COBALT_ORE.getDefaultState(),
-					9));
+					5));
 
 	private static ConfiguredFeature<?, ?> OVERWORLD_ORES_DEEPSLATE_COBALT_CONFIGURED_FEATURE = new ConfiguredFeature
 			(Feature.ORE, new OreFeatureConfig(
 					OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES,
-					ModBlocks.COBALT_ORE.getDefaultState(),
-					9));
+					ModBlocks.DEEPSLATE_COBALT_ORE.getDefaultState(),
+					6));
 
 
 	public static PlacedFeature OVERWORLD_COBALT_DEEPSLATE_ORE_PLACED_FEATURE = new PlacedFeature(
 			RegistryEntry.of(OVERWORLD_ORES_COBALT_CONFIGURED_FEATURE),
 			Arrays.asList(
-					CountPlacementModifier.of(25), // number of veins per chunk
+					CountPlacementModifier.of(15), // number of veins per chunk
 					SquarePlacementModifier.of(), // spreading horizontally
 					HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(40))
 			));
 
 	public static PlacedFeature OVERWORLD_COBALT_ORE_PLACED_FEATURE = new PlacedFeature(
-			RegistryEntry.of(OVERWORLD_ORES_COBALT_CONFIGURED_FEATURE),
+			RegistryEntry.of(OVERWORLD_ORES_DEEPSLATE_COBALT_CONFIGURED_FEATURE),
 			Arrays.asList(
-					CountPlacementModifier.of(25), // number of veins per chunk
+					CountPlacementModifier.of(15), // number of veins per chunk
 					SquarePlacementModifier.of(), // spreading horizontally
 					HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(40))
 			));
@@ -70,22 +70,22 @@ public class ExampleMod implements ModInitializer {
 	private static ConfiguredFeature<?, ?> OVERWORLD_ORES_DEEPSLATE_BLOOD_CONFIGURED_FEATURE = new ConfiguredFeature
 			(Feature.ORE, new OreFeatureConfig(
 					OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES,
-					ModBlocks.BLOOD_ORE.getDefaultState(),
+					ModBlocks.DEEPSLATE_BLOOD_ORE.getDefaultState(),
 					9));
 
 
 	public static PlacedFeature OVERWORLD_BLOOD_DEEPSLATE_ORE_PLACED_FEATURE = new PlacedFeature(
 			RegistryEntry.of(OVERWORLD_ORES_BLOOD_CONFIGURED_FEATURE),
 			Arrays.asList(
-					CountPlacementModifier.of(30), // number of veins per chunk
+					CountPlacementModifier.of(20), // number of veins per chunk
 					SquarePlacementModifier.of(), // spreading horizontally
 					HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(50))
 			));
 
 	public static PlacedFeature OVERWORLD_BLOOD_ORE_PLACED_FEATURE = new PlacedFeature(
-			RegistryEntry.of(OVERWORLD_ORES_BLOOD_CONFIGURED_FEATURE),
+			RegistryEntry.of(OVERWORLD_ORES_DEEPSLATE_BLOOD_CONFIGURED_FEATURE),
 			Arrays.asList(
-					CountPlacementModifier.of(30), // number of veins per chunk
+					CountPlacementModifier.of(20), // number of veins per chunk
 					SquarePlacementModifier.of(), // spreading horizontally
 					HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(50))
 			));
@@ -99,27 +99,27 @@ public class ExampleMod implements ModInitializer {
 			(Feature.ORE, new OreFeatureConfig(
 					OreConfiguredFeatures.STONE_ORE_REPLACEABLES,
 					ModBlocks.MYTHRIL_ORE.getDefaultState(),
-					4));
+					3));
 
 	private static ConfiguredFeature<?, ?> OVERWORLD_ORES_DEEPSLATE_MYTHRIL_CONFIGURED_FEATURE = new ConfiguredFeature
 			(Feature.ORE, new OreFeatureConfig(
 					OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES,
-					ModBlocks.MYTHRIL_ORE.getDefaultState(),
-					20));
+					ModBlocks.DEEPSLATE_MYTHRIL_ORE.getDefaultState(),
+					5));
 
 
 	public static PlacedFeature OVERWORLD_MYTHRIL_DEEPSLATE_ORE_PLACED_FEATURE = new PlacedFeature(
 			RegistryEntry.of(OVERWORLD_ORES_MYTHRIL_CONFIGURED_FEATURE),
 			Arrays.asList(
-					CountPlacementModifier.of(40), // number of veins per chunk
+					CountPlacementModifier.of(10), // number of veins per chunk
 					SquarePlacementModifier.of(), // spreading horizontally
 					HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(10))
 			));
 
 	public static PlacedFeature OVERWORLD_MYTHRIL_ORE_PLACED_FEATURE = new PlacedFeature(
-			RegistryEntry.of(OVERWORLD_ORES_MYTHRIL_CONFIGURED_FEATURE),
+			RegistryEntry.of(OVERWORLD_ORES_DEEPSLATE_MYTHRIL_CONFIGURED_FEATURE),
 			Arrays.asList(
-					CountPlacementModifier.of(40), // number of veins per chunk
+					CountPlacementModifier.of(10), // number of veins per chunk
 					SquarePlacementModifier.of(), // spreading horizontally
 					HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(10))
 			));

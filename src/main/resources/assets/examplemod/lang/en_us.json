@@ -11,5 +11,8 @@
   "item.examplemod.CaveDetecor.no_valuables": "No cave!",
   "item.examplemod.cave_detector": "Cave-detector",
   "block.examplemod.healing_block": "Healing block",
-  "item.examplemod.dungeon_finder": "Dungeon-finder"
+  "item.examplemod.dungeon_finder": "Dungeon-finder",
+  "block.examplemod.deepslate_mythril_ore": "Deepslate mythril ore",
+  "block.examplemod.deepslate_blood_ore": "Deepslate blood ore",
+  "block.examplemod.deepslate_cobalt_ore": "Deepslate cobalt ore"
 }

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "group": "blood_ingot",
+  "ingredient": {
+    "item": "examplemod:deepslate_blood_ore"
+  },
+  "result": "examplemod:blood_ingot",
+  "experience": 1,
+  "cookingtime": 125
+}
