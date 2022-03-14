@@ -105,7 +105,7 @@ public class ExampleMod implements ModInitializer {
 			(Feature.ORE, new OreFeatureConfig(
 					OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES,
 					ModBlocks.MYTHRIL_ORE.getDefaultState(),
-					4));
+					20));
 
 
 	public static PlacedFeature OVERWORLD_MYTHRIL_DEEPSLATE_ORE_PLACED_FEATURE = new PlacedFeature(
@@ -130,7 +130,7 @@ public class ExampleMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-		//cobalt
+
 
 		Registry.register(BuiltinRegistries.CONFIGURED_FEATURE,
 				new Identifier("tutorial", "overworld_cobalt_ore"), OVERWORLD_ORES_COBALT_CONFIGURED_FEATURE);
