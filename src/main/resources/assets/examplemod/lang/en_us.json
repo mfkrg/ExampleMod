@@ -7,5 +7,7 @@
   "block.examplemod.cobalt_ore": "Cobalt ore",
   "itemGroup.examplemod.example": "Example mod",
   "item.examplemod.raw_cobalt": "Raw cobalt",
-  "item.examplemod.raw_mythril": "Raw mythril"
+  "item.examplemod.raw_mythril": "Raw mythril",
+  "item.examplemod.CaveDetecor.no_valuables": "No cave!",
+  "item.examplemod.cave_detector": "Cave-detector"
 }

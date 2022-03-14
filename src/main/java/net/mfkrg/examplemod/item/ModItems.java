@@ -2,6 +2,7 @@ package net.mfkrg.examplemod.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.mfkrg.examplemod.ExampleMod;
+import net.mfkrg.examplemod.item.custom.CaveDetector;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
@@ -20,6 +21,9 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.EXAMPLE).fireproof()));
     public static final Item RAW_COBALT = registerItem("raw_cobalt",
             new Item(new FabricItemSettings().group(ModItemGroup.EXAMPLE).fireproof()));
+
+    public static final Item CAVE_DETECTOR = registerItem("cave_detector",
+            new CaveDetector(new FabricItemSettings().group(ModItemGroup.EXAMPLE)));
 
 
     private static Item registerItem(String name, Item item){

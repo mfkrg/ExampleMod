@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X#X",
+    "#X#",
+    "X#X"
+  ],
+  "key": {
+    "#": {
+      "item": "examplemod:mythril_ingot"
+    },
+    "X": {
+      "item": "examplemod:cobalt_ingot"
+    }
+  },
+  "result": {
+    "item": "examplemod:cave_detector"
+  }
+}
