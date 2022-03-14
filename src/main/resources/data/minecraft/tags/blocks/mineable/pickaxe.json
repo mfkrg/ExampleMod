@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+   "examplemod:blood_ore",
+   "examplemod:mythril_ore",
+   "examplemod:cobalt_ore"
+  ]
+}
