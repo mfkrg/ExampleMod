@@ -1,6 +1,7 @@
 package net.mfkrg.examplemod;
 
 import net.fabricmc.api.ModInitializer;
+import net.mfkrg.examplemod.block.ModBlocks;
 import net.mfkrg.examplemod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +14,7 @@ public class ExampleMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }

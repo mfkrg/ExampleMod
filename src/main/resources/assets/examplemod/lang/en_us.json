@@ -1,5 +1,8 @@
 {
   "item.examplemod.blood_ingot": "Blood ingot",
   "item.examplemod.cobalt_ingot": "Cobalt ingot",
-  "item.examplemod.mythril_ingot": "Mythril ingot"
+  "item.examplemod.mythril_ingot": "Mythril ingot",
+  "block.examplemod.mythril_ore": "Mythril ore",
+  "block.examplemod.blood_ore": "Blood ore",
+  "block.examplemod.cobalt_ore": "Cobalt ore"
 }
