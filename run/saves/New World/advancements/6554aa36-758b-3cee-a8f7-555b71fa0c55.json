@@ -1,145 +1,47 @@
 {
-  "minecraft:recipes/building_blocks/pink_concrete_powder": {
+  "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
-      "has_sand": "2022-03-14 17:02:28 +0300"
+      "in_water": "2022-03-14 23:34:20 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/sandstone": {
+  "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
-      "has_sand": "2022-03-14 17:02:28 +0300"
+      "in_water": "2022-03-14 23:34:20 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/red_concrete_powder": {
+  "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
-      "has_sand": "2022-03-14 17:02:28 +0300"
+      "in_water": "2022-03-14 23:34:20 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/white_concrete_powder": {
+  "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
-      "has_sand": "2022-03-14 17:02:28 +0300"
+      "in_water": "2022-03-14 23:34:20 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/black_concrete_powder": {
+  "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
-      "has_sand": "2022-03-14 17:02:28 +0300"
+      "in_water": "2022-03-14 23:34:20 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+  "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
-      "has_iron_pickaxe": "2022-03-14 17:00:50 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/blue_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-03-14 17:02:28 +0300"
-    },
-    "done": true
-  },
-  "minecraft:story/iron_tools": {
-    "criteria": {
-      "iron_pickaxe": "2022-03-14 17:00:50 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/gray_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-03-14 17:02:28 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purple_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-03-14 17:02:28 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/magenta_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-03-14 17:02:28 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/brown_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-03-14 17:02:28 +0300"
-    },
-    "done": true
-  },
-  "minecraft:story/upgrade_tools": {
-    "criteria": {
-      "stone_pickaxe": "2022-03-14 17:00:52 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/green_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-03-14 17:02:28 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/torch": {
-    "criteria": {
-      "has_stone_pickaxe": "2022-03-14 17:00:52 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-03-14 17:02:28 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-03-14 17:02:28 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/lime_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-03-14 17:02:28 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/orange_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-03-14 17:02:28 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/yellow_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-03-14 17:02:28 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cyan_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-03-14 17:02:28 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_nugget_from_smelting": {
-    "criteria": {
-      "has_iron_pickaxe": "2022-03-14 17:00:50 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/glass": {
-    "criteria": {
-      "has_sand": "2022-03-14 17:02:28 +0300"
+      "in_water": "2022-03-14 23:34:20 +0300"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:desert": "2022-03-14 17:00:09 +0300"
+      "minecraft:taiga": "2022-03-14 23:40:21 +0300",
+      "minecraft:birch_forest": "2022-03-14 23:33:01 +0300",
+      "minecraft:grove": "2022-03-14 23:40:34 +0300",
+      "minecraft:jagged_peaks": "2022-03-14 23:41:20 +0300",
+      "minecraft:lush_caves": "2022-03-14 23:34:27 +0300"
     },
     "done": false
   },
