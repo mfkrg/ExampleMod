@@ -4,5 +4,8 @@
   "item.examplemod.mythril_ingot": "Mythril ingot",
   "block.examplemod.mythril_ore": "Mythril ore",
   "block.examplemod.blood_ore": "Blood ore",
-  "block.examplemod.cobalt_ore": "Cobalt ore"
+  "block.examplemod.cobalt_ore": "Cobalt ore",
+  "itemGroup.examplemod.example": "Example mod",
+  "item.examplemod.raw_cobalt": "Raw cobalt",
+  "item.examplemod.raw_mythril": "Raw mythril"
 }

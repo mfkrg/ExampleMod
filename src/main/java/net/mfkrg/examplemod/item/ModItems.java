@@ -11,11 +11,15 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
 
     public static final Item BLOOD_INGOT = registerItem("blood_ingot",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.EXAMPLE)));
     public static final Item COBALT_INGOT = registerItem("cobalt_ingot",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC).fireproof()));
+            new Item(new FabricItemSettings().group(ModItemGroup.EXAMPLE).fireproof()));
     public static final Item MYTHRIL_INGOT = registerItem("mythril_ingot",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC).fireproof()));
+            new Item(new FabricItemSettings().group(ModItemGroup.EXAMPLE).fireproof()));
+    public static final Item RAW_MYTHRIL = registerItem("raw_mythril",
+            new Item(new FabricItemSettings().group(ModItemGroup.EXAMPLE).fireproof()));
+    public static final Item RAW_COBALT = registerItem("raw_cobalt",
+            new Item(new FabricItemSettings().group(ModItemGroup.EXAMPLE).fireproof()));
 
 
     private static Item registerItem(String name, Item item){
