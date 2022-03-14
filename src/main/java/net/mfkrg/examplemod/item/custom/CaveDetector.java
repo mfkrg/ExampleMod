@@ -16,6 +16,8 @@ public class CaveDetector extends Item {
         super(settings);
     }
 
+
+
     @Override
     public ActionResult useOnBlock(ItemUsageContext context) {
 

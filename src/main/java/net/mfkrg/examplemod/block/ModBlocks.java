@@ -3,6 +3,7 @@ package net.mfkrg.examplemod.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.mfkrg.examplemod.ExampleMod;
+import net.mfkrg.examplemod.block.custom.HealingBlock;
 import net.mfkrg.examplemod.item.ModItemGroup;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
@@ -20,6 +21,10 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(7f)), ModItemGroup.EXAMPLE);
     public static final Block COBALT_ORE = registerBlock("cobalt_ore",
             new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(7f)), ModItemGroup.EXAMPLE);
+
+    //CUSTOM BLOCKS
+    public static final Block HEALING_BLOCK = registerBlock("healing_block",
+            new HealingBlock(FabricBlockSettings.of(Material.STONE).requiresTool().strength(7f)), ModItemGroup.EXAMPLE);
 
 
 

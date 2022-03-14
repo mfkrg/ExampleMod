@@ -9,5 +9,7 @@
   "item.examplemod.raw_cobalt": "Raw cobalt",
   "item.examplemod.raw_mythril": "Raw mythril",
   "item.examplemod.CaveDetecor.no_valuables": "No cave!",
-  "item.examplemod.cave_detector": "Cave-detector"
+  "item.examplemod.cave_detector": "Cave-detector",
+  "block.examplemod.healing_block": "Healing block",
+  "item.examplemod.dungeon_finder": "Dungeon-finder"
 }
