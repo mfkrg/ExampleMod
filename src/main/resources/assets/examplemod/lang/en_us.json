@@ -14,5 +14,20 @@
   "item.examplemod.dungeon_finder": "Dungeon-finder",
   "block.examplemod.deepslate_mythril_ore": "Deepslate mythril ore",
   "block.examplemod.deepslate_blood_ore": "Deepslate blood ore",
-  "block.examplemod.deepslate_cobalt_ore": "Deepslate cobalt ore"
+  "block.examplemod.deepslate_cobalt_ore": "Deepslate cobalt ore",
+  "item.examplemod.blood_axe": "Blood axe",
+  "item.examplemod.blood_pickaxe": "Blood pickaxe",
+  "item.examplemod.blood_shovel": "Blood shovel",
+  "item.examplemod.blood_hoe": "Blood hoe",
+  "item.examplemod.blood_sword": "Blood sword",
+  "item.examplemod.cobalt_axe": "Cobalt axe",
+  "item.examplemod.cobalt_pickaxe": "Cobalt pickaxe",
+  "item.examplemod.cobalt_shovel": "Cobalt shovel",
+  "item.examplemod.cobalt_hoe": "Cobalt hoe",
+  "item.examplemod.cobalt_sword": "Cobalt sword",
+  "item.examplemod.mythril_axe": "Mythril axe",
+  "item.examplemod.mythril_pickaxe": "Mythril pickaxe",
+  "item.examplemod.mythril_shovel": "Mythril shovel",
+  "item.examplemod.mythril_hoe": "Mythril hoe",
+  "item.examplemod.mythril_sword": "Mythril sword"
 }
