@@ -11,5 +11,6 @@
   "item.examplemod.CaveDetecor.no_valuables": "No cave!",
   "item.examplemod.cave_detector": "Cave-detector",
   "block.examplemod.healing_block": "Healing block",
-  "item.examplemod.dungeon_finder": "Dungeon-finder"
+  "item.examplemod.dungeon_finder": "Dungeon-finder",
+  "item.examplemod.mythril_staff": "Mythril Staff"
 }

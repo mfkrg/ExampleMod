@@ -8,9 +8,9 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    MYTHRIL (MiningLevels.NETHERITE, 4100, 13.0f, 5.5f, 33, () -> Ingredient.ofItems(ModItems.MYTHRIL_INGOT)),
-    BLOOD (MiningLevels.IRON, 780, 7.0f, 2.5f, 19, () -> Ingredient.ofItems(ModItems.BLOOD_INGOT)),
-    COBALT (MiningLevels.DIAMOND, 2700, 9.0f, 4f, 25, () -> Ingredient.ofItems(ModItems.COBALT_INGOT));
+    MYTHRIL (MiningLevels.NETHERITE, 4100, 13.0f, 7f, 33, () -> Ingredient.ofItems(ModItems.MYTHRIL_INGOT)),
+    BLOOD (MiningLevels.IRON, 1500, 7.0f, 2.5f, 19, () -> Ingredient.ofItems(ModItems.BLOOD_INGOT)),
+    COBALT (MiningLevels.DIAMOND, 2700, 9.0f, 6f, 25, () -> Ingredient.ofItems(ModItems.COBALT_INGOT));
 
     private final int miningLevel;
     private final int itemDurability;
