@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.fabricmc.fabric.api.particle.v1.FabricParticleTypes;
 import net.mfkrg.examplemod.block.ModBlocks;
 import net.mfkrg.examplemod.item.ModItems;
+import net.mfkrg.examplemod.particle.ModParticles;
 import net.minecraft.block.Blocks;
 import net.minecraft.particle.DefaultParticleType;
 import net.minecraft.util.Identifier;
@@ -184,8 +185,7 @@ public class ExampleMod implements ModInitializer {
 						new Identifier("tutorial33", "overworld_deepslates_mythril_ore")));
 
 
-
-
+		ModParticles.registerParticles();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
