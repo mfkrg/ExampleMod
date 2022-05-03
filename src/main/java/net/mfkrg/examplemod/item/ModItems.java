@@ -5,10 +5,8 @@ import net.mfkrg.examplemod.ExampleMod;
 import net.mfkrg.examplemod.item.custom.*;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;
-import net.minecraft.item.ArmorMaterials;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
 
